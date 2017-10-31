@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Тест Роршаха</title>
+	</head>
+	
+	<body>
+		<h1>Тест Роршаха. Тест для исследования личности</h1>
+		
+		<p>Пятна теста Роршаха известны сегодня многим. Создатель его умер совсем рано, в возрасте 37 лет. Он так и не увидел большого успеха психологического инструмента, изобретенного им...</p>
+		<p>Тест Роршаха основан на показе нескольких чернильных пятен: пяти черно-белых, трех цветных и двух черно-красных. Психолог в строгой очередности показывает карточки, задавая пациенту вопрос: "На что это похоже?" Затем, после того как пациент дал ответы на тест Роршаха, специалист снова предлагает взглянуть на карточки, опять в определенной последовательности. Испытуемого просят назвать все, что он смог увидеть на них, а также в каком месте картинки он разглядел то или иное изображение, и что заставляет пациента дать именно этот ответ. Можно наклонять, переворачивать пятна теста Роршаха. Вы можете манипулировать ими всевозможными способами.</p>
+		<p>В качестве вариантов ответа приведены наиболее популярные варианты, названные другими участниками. Если ваш ответ не совпадает с имеющимся, воспользуйтесь строкой "другое", куда можно ввести свой вариант.</p>
+
+	
+		<div>
+		<h2>Первая иллюстрация</h2>
+		<figure>
+			<img src="1имг.jpg">
+		</figure>
+		<form name="test" method="post" action="input1.php">
+			<p><b>Что вы видите на этой карточке?</b><Br>
+			<input type="radio" name="answer" value="a1">летучая мышь<Br>
+			<input type="radio" name="answer" value="a2">морда животного<Br>
+			<input type="radio" name="answer" value="a3">бабочка<Br>
+			<input type="radio" name="answer" value="a4">другое:<Br>
+			<textarea name="comment" cols="40" rows="1"></textarea>
+			</p>	
+		</form>
+		</div>
+
+		
+		<div>
+		<h2>Вторая иллюстрация</h2>
+		<figure>
+			<img src="2имг.jpg">
+		</figure>
+		<form name="test" method="post" action="input1.php">
+			<p><b>Что вы видите на этой карточке?</b>(возможно несколько вариантов)<Br>
+			<input type="checkbox" name="answer" value="a1">кровь<Br>
+			<input type="checkbox" name="answer" value="a2">два человека<Br>
+			<input type="checkbox" name="answer" value="a3">длинноногое животное<Br>
+			<input type="checkbox" name="answer" value="a4">другое:<Br>
+			<textarea name="comment" cols="40" rows="1"></textarea>
+			</p>
+		</form>
+		</div>
+
+		
+		<div>
+		<h2>Третья иллюстрация</h2>
+		<figure>
+			<img src="3имг.jpg">
+		</figure>
+		<form name="test" method="post" action="input1.php">
+			<p><b>Если вы увидели здесь людей, сколько их?</b><Br>
+			<input type="number" name="people" min="1" max="3" step="1" checked="1"><Br>
+			<input type="radio" name="answer" value="a1">увидел(-а) другое:<Br>
+			<textarea name="comment" cols="40" rows="1"></textarea>
+			</p>	
+		</form>
+		</div>
+
+		
+		<div>
+		<h2>Четвертая иллюстрация</h2>
+		<figure>
+			<img src="4имг.jpg">
+		</figure>
+		<form name="test" method="post" action="input1.php">
+			<p><b>Что вы видите на этой карточке?</b><Br>
+			<input type="checkbox" id="а1"><label for="а1">монстр</label><Br>
+			<input type="checkbox" id="а2"><label for="а2">шкура</label><Br>
+			<input type="checkbox" id="а3"><label for="а3">авторитет</label><Br>
+			<input type="checkbox" id="а4"><label for="а4">другое:</label><Br>
+			<textarea name="comment" cols="40" rows="1"></textarea>
+			</p>	
+		</form>
+		</div>
+
+		
+		<div>
+		<h2>Пятая иллюстрация</h2>
+		<figure>
+			<img src="8имг.jpg">
+		</figure>
+		<form name="test" method="post" action="input1.php">
+			<p><b>Что вы видите на этой карточке?</b><Br>
+			<input type="radio" name="answer" value="a1">бабочка<Br>
+			<input type="radio" name="answer" value="a2">четвероногое животное<Br>
+			<input type="radio" name="answer" value="a3">моль<Br>
+			<input type="radio" name="answer" value="a4">другое:<Br>
+			<textarea name="comment" cols="40" rows="1"></textarea>
+			</p>	
+		</form>
+		</div>
+
+			
+			<form><p><b>Оцените, пожалуйста, насколько вам понравился тест:</b></p>
+			<input type="range" name="mark" min="1" max="5" step="1">
+			<p><a href="результат.html"><input type="submit" value="Отправить"></a>
+			<input type="reset" value="Очистить"></p></form>
+
+	</body>
+
+</html>
