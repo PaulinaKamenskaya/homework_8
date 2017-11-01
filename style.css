@@ -1,0 +1,115 @@
+/* Задание 1 */
+.task1__scary-text {
+	font-family: 'Nosifer', cursive;
+	color: #ff0000;
+	font-size: 2rem;
+}
+
+/* Задание 2 */
+.task2__lyrics {
+	line-height: 1.25;
+	letter-spacing: 0;
+}
+
+/* Задание 3 */
+.task3__italic {
+	font-style: italic;
+}
+.task3__oblique {
+	font-style: oblique;
+}
+.task3__bold {
+	font-weight: bold;
+}
+.task3__underlined {
+	text-decoration: underline;
+}
+.task3__overlined {
+	text-decoration: overline;
+}
+.task3__linethrough {
+	text-decoration: line-through;
+}
+.task3__bonus {
+	text-decoration: line-through underline;
+}
+
+/* Задание 4 */
+.task4__block1 {
+	border-radius: 50pt;
+	background-color: red;
+}
+.task4__block2 {
+	border-radius: 50pt;
+	background-color: yellow;
+}
+.task4__block3 {
+	border-radius: 50pt;
+	background-color: green;
+}
+
+/* Задание 5 */
+.task5__name {
+	color: pink;
+}
+.task5__hex {
+	color: #fcb6f9;
+}
+.task5__rgb {
+	color: rgb(252, 182, 249);
+}
+.task5__rgba {
+	color: rgba(252, 182, 249, 0.5);
+}
+.task5__hsl {
+	color: hsl(315, 50%, 80%);
+}
+.task5__hsla {
+	color: hsla(315, 70%, 60%, 0.5);
+}
+
+/* Задание 6 */
+.task6__cat-parent {
+	text-align: right;
+}
+
+/* Задание 7 */
+.task7__bear {
+  position: absolute;
+  z-index: -10;
+}
+
+/* Задание 8 */
+.task8__cage {
+
+}
+
+/* Задание 9 */
+.task9__spider-man {
+  position: relative;
+}
+
+/* Задание 10 */
+.task10__pelmeshek {
+
+}
+
+/* Бонусное задание 1 */
+.task-bonus1 {
+
+}
+
+/* Бонусное задание 2 */
+.task-bonus2__sidebar {
+
+}
+.task-bonus2__content {
+
+}
+.task-bonus2__footer {
+
+}
+
+/* Бонусное задание 3 */
+.task-bonus3__flex {
+}
